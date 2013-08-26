@@ -7,6 +7,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{fluentd mixin to add dns resolve/cache features}
   gem.summary       = %q{dns resolver mixin for fluentd plugin}
   gem.homepage      = "https://github.com/tagomoris/fluent-mixin-dns-resolver"
+  gem.license       = "APLv2"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
